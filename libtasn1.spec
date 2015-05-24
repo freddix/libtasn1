@@ -1,12 +1,12 @@
 # based on PLD Linux spec git://git.pld-linux.org/packages/libtasn1.git
 Summary:	ASN.1 library used in GNUTLS
 Name:		libtasn1
-Version:	4.4
+Version:	4.5
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://ftp.gnu.org/gnu/libtasn1/%{name}-%{version}.tar.gz
-# Source0-md5:	c26d76d1309dd339365c563076599912
+# Source0-md5:	81d272697545e82d39f6bd14854b68f0
 Patch0:		%{name}-ar.patch
 URL:		http://www.gnu.org/software/gnutls/
 BuildRequires:	autoconf
